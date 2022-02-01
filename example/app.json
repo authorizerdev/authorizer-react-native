@@ -1,0 +1,22 @@
+{
+  "name": "authorizer-react-native-example",
+  "displayName": "AuthorizerReactNative Example",
+  "expo": {
+    "name": "authorizer-react-native-example",
+    "slug": "authorizer-react-native-example",
+    "description": "Example app for authorizer-react-native",
+    "privacy": "public",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
