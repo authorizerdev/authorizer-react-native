@@ -1,13 +1,14 @@
 import * as React from 'react';
 
 import { StyleSheet, View, Text } from 'react-native';
+// @ts-ignore
 import { multiply } from 'authorizer-react-native';
 
 export default function App() {
   const [result, setResult] = React.useState<number | undefined>();
 
   React.useEffect(() => {
-    multiply(3, 7).then(setResult);
+    multiply(3, 8).then(setResult);
   }, []);
 
   return (

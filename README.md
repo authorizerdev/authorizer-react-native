@@ -11,11 +11,7 @@ npm install authorizer-react-native
 ## Usage
 
 ```js
-import { multiply } from "authorizer-react-native";
-
-// ...
-
-const result = await multiply(3, 7);
+import {} from 'authorizer-react-native';
 ```
 
 ## Contributing
